@@ -1,4 +1,3 @@
-# binary search
 pos = -1
 
 
@@ -20,7 +19,6 @@ def search(array_, key):
 
 list_ = [2, 5, 8, 12, 16, 20, 38, 56, 72, 91]
 key_ = 20
-
 if search(list_, key_):
     print("found at ", pos + 1)
 else:

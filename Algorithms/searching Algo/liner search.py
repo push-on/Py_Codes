@@ -1,4 +1,3 @@
-# liner search
 list_1 = (10, 20, 80, 30, 60, 50, 110, 100, 130, 170)
 i = None
 key = int(input("number: "))
@@ -9,6 +8,6 @@ for i in range(len(list_1)):
         break
 
 if result == key:
-    print("found at",i)
+    print("found at", i)
 else:
     print("not found")
