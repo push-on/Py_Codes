@@ -6,6 +6,7 @@
 def difference(arr):
     d1 = 0
     d2 = 0
+    n = len(arr)
 
     for i in range(len(arr)):
         for j in range(0, n):
@@ -14,7 +15,6 @@ def difference(arr):
             if (i == n - j - 1):
                 d2 += arr[i][j]
     return abs(d1 - d2)
-
 
 arr = [[11, 2, 4],
        [4, 5, 6],
