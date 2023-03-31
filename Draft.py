@@ -1,9 +1,7 @@
-list = [27, 58, 5, 10, 17, 9, 87, 87, 4, 15, 50, 24, 87, 70, 2, 0]
+h12 = input("time in H:M:S:p")
 
-n = 0
-i_max = max(list)
-for i in list:
-    if i == i_max:
-        n += 1
+h, m, s = h12[:-2].split(":")
 
-print(n)
+AM_PM = h12[-2:]
+
+print(AM_PM)
