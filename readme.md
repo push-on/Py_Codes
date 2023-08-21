@@ -14,3 +14,4 @@
 
 - bulk Rename
 - random file creator
+- delte move dublicate files
